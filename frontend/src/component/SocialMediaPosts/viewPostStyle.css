@@ -1,0 +1,66 @@
+/* viewPostStyle.css */
+
+/* Styling for individual posts */
+.viewPost {
+    margin: 20px auto; /* Adjust margin to center horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px; /* Set maximum width */
+}
+
+.viewPost p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.viewPost img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.viewPost video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Styling for comments */
+.commentContainer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.comment p:last-child {
+    margin-bottom: 0;
+}
+
+.comment p.author {
+    font-style: italic;
+}
+
+/* Centering the slider */
+.slick-slider {
+    margin: 0 auto;
+}
+
+/* Styling for action buttons */
+.actionButtons {
+    margin-top: 30px; /* Add space above the buttons */
+}
+
+.actionButtons button {
+    margin-right: 5px; /* Add space between the buttons */
+}

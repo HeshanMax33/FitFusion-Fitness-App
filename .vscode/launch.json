@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FitFusionApplication<FitFusion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.paf.FitFusion.FitFusionApplication",
+            "projectName": "FitFusion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

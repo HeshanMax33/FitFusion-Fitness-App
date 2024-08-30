@@ -1,0 +1,97 @@
+.index_bg {
+  background-image: url("../index/index4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.nav {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.nav-item1 {
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgba(134, 198, 7, 1) !important;
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 500;
+  color: aliceblue;
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.he1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(134, 198, 7, 1);
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 200px;
+}
+
+.he2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: aliceblue;
+  position: relative;
+  bottom: 125px;
+  margin-left: 180px;
+}
+
+.he3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(134, 198, 7, 1);
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  bottom: 160px;
+}
+
+.he4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  position: relative;
+  bottom: 140px;
+  padding-left: 20px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.login-btn, .signup-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(134, 198, 7, 1);
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #86c607;
+}

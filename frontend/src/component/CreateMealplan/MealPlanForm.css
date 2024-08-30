@@ -1,0 +1,117 @@
+
+
+/* Container */
+.MealformContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #eaf6fd; /* Light blue background color */
+}
+
+/* Heading */
+.MealformContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Error and Success Messages */
+.errorMessage {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.successMessage {
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* Form Groups */
+.formGroup {
+  margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+  font-weight: bold;
+}
+
+/* Dropdown */
+.dropdownMenu {
+  width: 100%;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Input */
+.input {
+  width: calc(100% - 32px); /* Adjusted width for input */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Textarea */
+.textarea {
+  width: calc(100% - 32px); /* Adjusted width for textarea */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add and Remove Button */
+.addButton,
+.removeButton {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover,
+.removeButton:hover {
+  background-color: #0056b3;
+}
+
+.removeButton {
+  background-color: red; /* Always show remove button in red */
+}
+
+/* File Input */
+.fileInput {
+  width: calc(100% - 32px); /* Adjusted width for file input */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.submitButton {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #218838;
+}
+.pageContainer {
+  background-color: #121010; /* Background color for the entire page */
+}
